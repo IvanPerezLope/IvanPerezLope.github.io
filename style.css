@@ -1,10 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #f5f5f5;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  font-size: 14px;
 }
 
 .keywords {
@@ -15,6 +18,7 @@ a,
 button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
+  color: #0078d4;
 }
 
 a {
@@ -202,7 +206,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(24, 22, 22, 0.5);
 }
 
 .d-bloc .panel button:hover,
@@ -291,7 +295,7 @@ a:hover {
 }
 
 #bloc-2-services p {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .navbar {
@@ -333,15 +337,18 @@ a:hover {
   float: left;
   margin-top: 4px;
   font-size: 16px;
+  color: #f5f5f5;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
+  color: #f5f5f5;
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
+  color: #f5f5f5;
 }
 
 .navbar-toggle {
@@ -414,6 +421,7 @@ a:hover {
   background: none !important;
   display: block;
   padding: 14px 15px;
+  color: #f5f5f5;
 }
 
 nav .caret {
@@ -663,7 +671,7 @@ label,
 }
 
 a {
-  color: #e3e3e3 !important;
+  color: #161010 !important;
 }
 
 .container {
@@ -714,6 +722,7 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  color: #f5f5f5;
 }
 
 h2 {
@@ -728,6 +737,9 @@ h3 {
   color: #333333 !important;
 }
 
+p {
+  font-size: 16px;
+}
 .med-width-whitespace {
   max-width: 800px;
   margin: auto auto auto auto;
@@ -793,7 +805,7 @@ h4 {
 }
 
 .tc-white {
-  color: #364577 !important;
+  color: #e7e8eb !important;
 }
 
 .btn-atomic-tangerine {
