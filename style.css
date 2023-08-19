@@ -667,7 +667,7 @@ label,
 .btn {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #050505 !important;
 }
 
 a {
@@ -734,7 +734,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333333 !important;
+  color: #111111 !important;
 }
 
 p {
@@ -747,7 +747,7 @@ p {
 }
 
 h1 {
-  color: #333333 !important;
+  color: #111010 !important;
 }
 
 h4 {
@@ -1091,11 +1091,20 @@ h4 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
+  }
+  .row-no-gutters {
+    display: flex;
+    padding-left: 30px;
   }
 }
 
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+  .row-no-gutters {
+    display: flex;
+    padding-left: 30px;
   }
 }
